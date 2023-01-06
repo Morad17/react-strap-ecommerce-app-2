@@ -12,13 +12,12 @@ const Slider = () => {
   return (
     <div className="slider">
         <div className="container">
-            <img src={slider1} alt="" />
+            {/* <img src={slider1} alt="" />
             <img src={slider2}  alt="" />
-            <img src={slider3}  alt="" />
+            <img src={slider3}  alt="" /> */}
+            Cover Image
         </div>
         <div className="icon">
-            <EastOutlinedIcon />
-            <WestOutlinedIcon />
         </div>
     </div>
   )
